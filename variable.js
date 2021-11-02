@@ -20,15 +20,15 @@
 
 // let  othernative = new Object()
 
-// function createObject(name, age, gender, height, hobby) {
-//         this.name = name
-//         this.age = age
-//         this.gender = gender
-//         this.height = height
-//         this.hobby = hobby
-// }
-// let newNative = new createObject("Timi", 100, "male", "6.7ft", "hardworking");
-// console.log(newNative)
+function createObject(name, age, gender, height, hobby) {
+        this.name = name
+        this.age = age
+        this.gender = gender
+        this.height = height
+        this.hobby = hobby
+}
+let newNative = new createObject("Timi", 100, "male", "6.7ft", "hardworking");
+console.log(newNative)
 
  // INTERVAl
 // we have rwo methods of retrieving data from an object 
@@ -53,4 +53,4 @@
 // }
 // console.log(Object.keys(newNative));
 // console.log(Object.values(newNative));
-// console.log(Object.entries(newNative));
+console.log(Object.entries(newNative));
