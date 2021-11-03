@@ -22,6 +22,8 @@ let objArray = [
 //                 "checkout array.prototype.map on MDN Docs"
 // let question3 = "using array method filter, return an array containing, object with gender male"
 // let question4 = "Do question3 above for object with gender female"
+// let question5 = "create a new key age per object, the the value of age per
+                        //  object is equivalent to the total sum of both the firstname and lastname"
 // question1
 function xy(lets){
     console.log(lets.firstName)
@@ -52,3 +54,10 @@ function newFem(mem){
     return mem.gender === "female";
 }
 console.log(objArray.filter(newFem));
+
+//  question 5
+function newAge(geg) {
+    geg["age"] = geg.firstName.length + geg.lastName.length;
+}
+objArray.map(newAge)
+console.log(objArray)
