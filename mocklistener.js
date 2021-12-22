@@ -19,5 +19,6 @@ addEventListenerPseudo: function(event, afunction){
 
 // documentPseudo.addEventListenerPseudo("hover", (event, number) => {
 //     console.log(event, number);})
+// let myFunction = function (event, number) {console.log(event, number)}
 let myFunction = (event, number) => console.log(event, number)
 documentPseudo.addEventListenerPseudo("hover", myFunction)
